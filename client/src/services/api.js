@@ -1,6 +1,6 @@
 // Base API integration for CampusTrace backend
 
-const API_BASE = '/api';
+const API_BASE = 'https://campustrace-api.onrender.com/api';
 
 // Helper to get headers with token
 const getHeaders = (isMultipart = false) => {
